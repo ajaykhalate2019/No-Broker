@@ -1,0 +1,376 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.navbar-right button{
+     align-items: center;
+     text-decoration: none;
+
+     
+}
+
+.nav-rent {
+    margin-left: 25px;
+    text-decoration: none;
+    border: none;
+    background: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #333;
+    font-weight: 500;
+}
+
+.header {
+    padding: 20px 0;
+    background-color: #fff;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    color: #555;
+}
+
+.header .guarantee {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #fff4db;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 14px;
+    color: #444;
+}
+
+.search-container {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 1000px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    
+    margin-bottom: 20px;
+}
+
+.search-bar2 {
+    display: flex;
+    justify-content: space-between;
+    
+    margin-top: 20px;
+
+}
+
+.search-bar2 select {
+    padding: 8px;
+    width: 200px;
+    border: 2px solid #959090;
+}
+.tabs button {
+    flex: 1;
+    padding: 10px 0;
+    font-size: 16px;
+    border: none;
+    background: none;
+    color: #555;
+    cursor: pointer;
+}
+
+.tabs button.active {
+    color: #e60023;
+    font-weight: bold;
+    border-bottom: 2px solid #e60023;
+}
+
+.search-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.search-bar select,
+.search-bar input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.search-bar input[type="radio"] {
+    margin-right: 5px;
+}
+
+.search-bar .search-button {
+    background-color: #e60023;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-bar .search-button:hover {
+    background-color: #cc001f;
+}
+
+.search-bar2 select,
+.search-bar2 input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    
+}
+
+.post-free {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.post-free button {
+    padding: 10px 20px;
+    background-color: #00afab;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.post-free button:hover {
+    background-color: #008f8c;
+}
+
+.eligibility {
+    margin-top: 25px;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    background-color: #384d6c;
+    color: #fff;
+    height: 50px;
+    justify-content: center;
+    
+}
+.eligibility p{
+    margin-top: 15px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.eligibility button{
+
+        border-radius: 8px;
+        padding: 5px;
+        margin-left: 10px;
+        font-size: 10px
+}
+
+.builderHomeTile { 
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #fff;
+}
+
+.btype { 
+    text-align: center;
+    margin: 15px;
+    padding: 20px;
+    max-width: 150px;  
+}
+
+.btype img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+
+.btype h3 {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #444;
+}
+
+.why-use {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.why-use h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #444;
+}
+
+.benefits {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.benefit-card {
+    max-width: 180px;
+    text-align: center;
+    padding: 15px;
+    justify-content: space-around;
+}
+
+.benefit-card img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.benefit-card h3 {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 5px;
+}
+
+.benefit-card p {
+    font-size: 12px;
+    color: #666;
+}
+
+.we-make {
+    padding: 30px 20px;
+    text-align: center;
+
+}
+
+.we-make h2 {
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: #444;
+}
+
+.starts-section {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 30px;
+}
+
+.start-item {
+    text-align: center;
+}
+
+.start-item h2 {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #e60023;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 10px;
+    color: #e60023;
+    font-size: 20px;
+    font-weight: bold;
+} 
+
+.start-item h3 {
+    font-size: 14px;
+    color: #666;
+}
+
+
+.end-section img {
+  width: 100%;
+}
+
+
+
+.footer-section {
+    background-color: #fff;
+    padding: 20px 10px;
+    
+}
+
+.f-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+    background-color: #eaeaea;
+}
+
+.f-item {
+    text-align: center;
+}
+
+.f-item h3 {
+    font-size: 18px;
+    margin: 0 0 10px;
+    font-weight: bold;
+}
+
+.f-item p {
+    margin: 0 0 15px;
+    color: #555;
+}
+
+.f-item button {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    background-color: #444;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.f-item button:hover {
+    background-color: #333;
+}
+
+.footer-links {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.footer-links a {
+    margin: 0 10px;
+    color: #444;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.social-media  {
+     color: #666;
+     text-align: center;
+     font-size: 24px;
+     justify-content: space-around;
+}
+
+.social-media a {
+    text-align: center;  
+}
+
+.copyright {
+    text-align: center;
+    color: #888;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
